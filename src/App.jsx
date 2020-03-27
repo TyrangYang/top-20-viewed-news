@@ -14,6 +14,12 @@ function App() {
             <div className="content">
                 <TopTenNews />
             </div>
+            <footer>
+                <img
+                    src="https://developer.nytimes.com/files/poweredby_nytimes_150a.png?v=1568441067758"
+                    alt=""
+                />
+            </footer>
         </div>
     );
 }

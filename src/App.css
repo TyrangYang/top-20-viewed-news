@@ -51,6 +51,7 @@ body {
 
 .keyWordContainer {
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     justify-content: center;
 }
@@ -74,4 +75,12 @@ body {
 
 .publishDate {
     font-size: 10px;
+}
+
+footer {
+    display: flex;
+}
+
+footer img {
+    margin: auto;
 }
