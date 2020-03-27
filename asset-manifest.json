@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "//top-20-viewed-news/static/css/main.3e447901.chunk.css",
-    "main.js": "//top-20-viewed-news/static/js/main.85ec4ad8.chunk.js",
-    "main.js.map": "//top-20-viewed-news/static/js/main.85ec4ad8.chunk.js.map",
-    "runtime-main.js": "//top-20-viewed-news/static/js/runtime-main.b6cd1817.js",
-    "runtime-main.js.map": "//top-20-viewed-news/static/js/runtime-main.b6cd1817.js.map",
-    "static/js/2.eec75ced.chunk.js": "//top-20-viewed-news/static/js/2.eec75ced.chunk.js",
-    "static/js/2.eec75ced.chunk.js.map": "//top-20-viewed-news/static/js/2.eec75ced.chunk.js.map",
-    "index.html": "//top-20-viewed-news/index.html",
-    "precache-manifest.85eed3ddee73a1ccec342c9d6ecc3e8c.js": "//top-20-viewed-news/precache-manifest.85eed3ddee73a1ccec342c9d6ecc3e8c.js",
-    "service-worker.js": "//top-20-viewed-news/service-worker.js",
-    "static/css/main.3e447901.chunk.css.map": "//top-20-viewed-news/static/css/main.3e447901.chunk.css.map",
-    "static/js/2.eec75ced.chunk.js.LICENSE.txt": "//top-20-viewed-news/static/js/2.eec75ced.chunk.js.LICENSE.txt"
+    "main.css": "/top-20-viewed-news/static/css/main.3e447901.chunk.css",
+    "main.js": "/top-20-viewed-news/static/js/main.7914542e.chunk.js",
+    "main.js.map": "/top-20-viewed-news/static/js/main.7914542e.chunk.js.map",
+    "runtime-main.js": "/top-20-viewed-news/static/js/runtime-main.46e687b2.js",
+    "runtime-main.js.map": "/top-20-viewed-news/static/js/runtime-main.46e687b2.js.map",
+    "static/js/2.eec75ced.chunk.js": "/top-20-viewed-news/static/js/2.eec75ced.chunk.js",
+    "static/js/2.eec75ced.chunk.js.map": "/top-20-viewed-news/static/js/2.eec75ced.chunk.js.map",
+    "index.html": "/top-20-viewed-news/index.html",
+    "precache-manifest.cab39511518dc443b70dbe44fafba70d.js": "/top-20-viewed-news/precache-manifest.cab39511518dc443b70dbe44fafba70d.js",
+    "service-worker.js": "/top-20-viewed-news/service-worker.js",
+    "static/css/main.3e447901.chunk.css.map": "/top-20-viewed-news/static/css/main.3e447901.chunk.css.map",
+    "static/js/2.eec75ced.chunk.js.LICENSE.txt": "/top-20-viewed-news/static/js/2.eec75ced.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b6cd1817.js",
+    "static/js/runtime-main.46e687b2.js",
     "static/js/2.eec75ced.chunk.js",
     "static/css/main.3e447901.chunk.css",
-    "static/js/main.85ec4ad8.chunk.js"
+    "static/js/main.7914542e.chunk.js"
   ]
 }
