@@ -1,0 +1,11 @@
+@privateKey = CU3gZvAR7Apw1ApR3qU7oVJ3MXqb1Gjp
+
+GET https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key={{privateKey}} HTTP/1.1
+###
+POST https://us-central1-cloud-function-demo-272320.cloudfunctions.net/wiki-translate HTTP/1.1
+Content-Type : application/json
+
+{
+    "entity":"facebook",
+    "language": "zh"
+}
