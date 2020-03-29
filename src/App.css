@@ -68,7 +68,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 20%;
-    font-size: 10px;
+    font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 5px 5px 5px 5px;
@@ -85,7 +85,7 @@ body {
 }
 
 .publishDate {
-    font-size: 5px;
+    font-size: 10px;
     float: left;
     /* border: black 3px solid; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
@@ -94,7 +94,7 @@ body {
 .more-detail {
     /* border: black 3px solid; */
     float: right;
-    font-size: 5px;
+    font-size: 10px;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -104,7 +104,7 @@ body {
     text-decoration: none;
 }
 .abstract {
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
