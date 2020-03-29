@@ -13,9 +13,13 @@ export default function OneNews(props) {
                     </div>
                 ))}
             </div>
-            <p className="publishDate"> {props.info.published_date}</p>
             <p className="abstract">{props.info.abstract}</p>
-            <a href={props.info.url}>More Detail</a>
+            <div className="card-footer">
+                <p className="publishDate"> {props.info.published_date}</p>
+                <p className="more-detail">
+                    <a href={props.info.url}>Read More -></a>
+                </p>
+            </div>
         </div>
     );
 }

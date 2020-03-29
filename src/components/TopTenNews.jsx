@@ -7,11 +7,11 @@ export default function TopTenNews() {
 
     useEffect(() => {
         async function fetchData() {
-            let privateKey = 'CU3gZvAR7Apw1ApR3qU7oVJ3MXqb1Gjp';
+            // console.log(process.env.REACT_APP_API_KEY);
             let {
                 data: { results }
             } = await axios.get(
-                `https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=${privateKey}`
+                `https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=${process.env.REACT_APP_API_KEY}`
             );
             setData(results);
         }

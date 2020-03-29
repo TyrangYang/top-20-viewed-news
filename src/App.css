@@ -27,12 +27,14 @@ body {
     z-index: 1;
 }
 .card {
+    display: grid;
     width: 50%;
     background: linear-gradient(30deg, #fefefe, #f0f0f0);
     border: white solid 2px;
     border-radius: 5px;
     margin: auto;
     margin-bottom: 10px;
+    padding: 20px 20px 20px 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -42,6 +44,10 @@ body {
     font-size: 50px;
     text-align: center;
     margin: 0px;
+    border-width: 1px;
+    border-color: #555;
+    padding: 3px 3px 3px 3px;
+    border-style: none none solid none;
 }
 
 .title a {
@@ -57,24 +63,51 @@ body {
 }
 
 .keyWord {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 20%;
     font-size: 10px;
-    color: red;
-    /* border-width: 3px;
-    border-color: black;
-    border-style: solid; */
-    /* border-radius: 15px 30px 15px 30px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px 5px 5px 5px;
+    color: #555;
+    text-align: center;
+    /* border: black 3px  */
+    border-width: 2px;
+    border-color: rgb(116, 116, 116);
+    border-style: solid;
+    border-radius: 5px;
 }
-
-.abstract {
-    font-size: 16px;
-    font-family: sans-serif;
-    text-align: justify;
+.card-footer {
+    /* border: black 3px solid; */
 }
 
 .publishDate {
-    font-size: 10px;
+    font-size: 5px;
+    float: left;
+    /* border: black 3px solid; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.more-detail {
+    /* border: black 3px solid; */
+    float: right;
+    font-size: 5px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.more-detail a {
+    text-decoration: none;
+}
+.abstract {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 footer {
