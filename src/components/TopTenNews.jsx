@@ -7,13 +7,16 @@ export default function TopTenNews() {
 
     useEffect(() => {
         async function fetchData() {
-            // console.log(process.env.REACT_APP_API_KEY);
             let {
                 data: { results }
             } = await axios.get(
                 `https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=${process.env.REACT_APP_API_KEY}`
             );
             setData(results);
+            // // server side calling api
+            // let { data } = await axios.get('http://localhost:8080');
+            // console.log(data);
+            // setData(data);
         }
         fetchData();
         const interval = setInterval(() => {
