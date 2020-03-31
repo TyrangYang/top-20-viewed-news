@@ -1,7 +1,7 @@
 {
     "name": "current-news",
     "version": "0.1.0",
-    "homepage": "https://tyrangyang.github.io/top-20-viewed-news",
+    "homepage": ".",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
@@ -10,6 +10,7 @@
         "axios": "^0.19.2",
         "cors": "^2.8.5",
         "express": "^4.17.1",
+        "path": "^0.12.7",
         "react": "^16.13.0",
         "react-dom": "^16.13.0",
         "react-scripts": "3.4.0"
@@ -21,7 +22,8 @@
         "deploy": "gh-pages -d build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "clean": "rm -rf build && rm -rf node_modules"
+        "clean": "rm -rf build && rm -rf node_modules",
+        "server": "nodemon server.js"
     },
     "eslintConfig": {
         "extends": "react-app"

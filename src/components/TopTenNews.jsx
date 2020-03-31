@@ -14,7 +14,7 @@ export default function TopTenNews() {
             );
             setData(results);
             // // server side calling api
-            // let { data } = await axios.get('http://localhost:8080');
+            // let { data } = await axios.get('http://localhost:8080/api');
             // console.log(data);
             // setData(data);
         }
